@@ -1,8 +1,14 @@
-const mon = "mon";
+const a  = 5;   //const 는 바뀔수없다
+const b = 8;
+let minTonJuwon = "sexy";  //let은 다시설정가능
 
-const nonsense = [1, 2, "hi" ,false,  , 3, 1];
-console.log(nonsense);
+//var 도 있는데 이건 엄청 옛날거다 (업데이트가능)
 
-nonsense.push("sun")
+console.log(a+b);
+console.log(a*b);
+console.log(a/b);
+console.log( "You are " + minTonJuwon);
 
-console.log(nonsense);
+minTonJuwon = "cool"; //let 업데이트
+
+console.log("You are " + minTonJuwon);
