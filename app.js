@@ -1,9 +1,12 @@
-function mother(NameOfPerson,age){
-    console.log("Hellow My name is" + NameOfPerson + "and I am " +  age + "years old ")
-    
-}
-mother( "juwon", 10)
-mother("pia", 20)
-mother("lotte", 30)
-console.log("asdlkfj")
+const player = {
+    name:"juwon",
+    sayhellow : function(otherpersonname){
+        console.log("Hellow" + otherpersonname + "nice to meet you")
 
+    },
+    age : 20
+}
+
+console.log(player.name)
+player.sayhellow("kevin")
+player.name
